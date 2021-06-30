@@ -13,7 +13,9 @@ body{
 
     transition: .5s background;
 
+    color: var(--black);
     background: var(--white);
+    font-family: sans-serif;
 }
 main{
     width: 100vw;
@@ -31,13 +33,27 @@ main{
 
     margin: 5%;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     transition: .5s background;
 
+    color: var(--black);
     background: var(--white);
     border-radius: 50%;
+}
+.dot span{
+    margin: 5%;
+
+    cursor: default;
+
+    text-align: center;
+    font-size: large;
 }
 
 
 .dark{
+    color: var(--white);
     background: var(--black);
 }
